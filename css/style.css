@@ -10,7 +10,7 @@
   }
 
 .nav-item a:hover {
-    color: red;
+    color: #b01307;
 
   }
 
@@ -40,7 +40,7 @@
   padding-bottom: 10px;
 }
 
-/* work section */
+/* Work section */
 
 .card a {
   text-decoration: none;
@@ -55,12 +55,29 @@ h2 {
   text-align: end;
 }
 
+/* About section  */
+
 .contact-details {
   display: flex;
   justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.contact-details p {
-  text-align: center;
+.contact-details div {
+  padding-right: 20px;
 }
 
+/* Footer */
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+  
+}
+
+.footerLinks a {
+  color: white;
+}
