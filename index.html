@@ -14,14 +14,14 @@
 
             <!-- Navbar with links that navigate to appropriate sections -->
 
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="./index.html"><img src="./images/M-glyph.svg" alt="a logo displaying a letter M" width="45"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 me-auto mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                          Work
@@ -35,10 +35,10 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Resume</a>
@@ -54,9 +54,9 @@
 
         <section class="heroBanner">
             <div class="jumbotron jumbotron-fluid">
-                <div class="container">
+                <div class="container heroText">
                   <h1 class="display-4">Marija Pastuchova</h1>
-                  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                  <p class="lead">This is a modified jumbotron</p>
                 </div>
             </div>            
         </section>
@@ -65,7 +65,7 @@
 
         <main>
           <section>  
-              <div class="container">
+              <div class="container-fluid">
 
         <!-- Work section displayed in grid, cards used for each project and linked to the project -->
 
@@ -77,58 +77,70 @@
 
                         <div class="row gy-3">
                           <div class="col-sm-12 col-md-12 col-lg-12">
-
+                            
                             <div class="card" style="width: 100%;" id="surfReport">
-                              <img src="./images/jennifer-kalenberg-LfIhMM8XEQ4-unsplash.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Surf Report</h5>
-                                <p class="card-text">MERN Stack</p>
-                              </div>
+                              <a href="#">
+                                <img src="./images/jennifer-kalenberg-LfIhMM8XEQ4-unsplash.jpg" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                  <h5 class="card-title">Surf Report</h5>
+                                  <p class="card-text">MERN Stack</p>
+                                </div>
+                              </a>
                             </div>
+                            
                           </div>
 
                         
                           <div class="col-sm-6 col-md-6 col-lg-6">
 
                             <div class="card" style="width: 100%;" id="ledWall">
-                              <img src="./images/declan-sun-vVSLLxc5pY8-unsplash.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">LED Wall</h5>
-                                <p class="card-text">Node/IoT</p>
-                              </div>
+                              <a href="#">
+                                <img src="./images/gang-hao-zCZzSK5yX5A-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">LED Wall</h5>
+                                  <p class="card-text">Node/IoT</p>
+                                </div>
+                              </a>
                             </div>    
 
                           </div>
                           <div class="col-sm-6 col-md-6 col-lg-6">
 
-                            <div class="card" style="width: 100%;" id="calculator">
-                              <img src="./images/mery-khachatryan-jKj8q0gXvkk-unsplash.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Calculator</h5>
-                                <p class="card-text">Node/IoT</p>
-                              </div>
+                            <div class="card h-100" style="width: 100%;" id="calculator">
+                              <a href="#">
+                                <img src="./images/bahador-RhcSCloXdkg-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Calculator</h5>
+                                  <p class="card-text">Node/IoT</p>
+                                </div>
+                              </a>
                             </div>
     
                           </div>
                           <div class="col-sm-6 col-md-6 col-lg-6">
 
                             <div class="card" style="width: 100%;" id="pastelPuzzels">
-                              <img src="./images/marissa-grootes-O8HHFS7InmA-unsplash (1).jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Pastel Puzzles</h5>
-                                <p class="card-text">MERN Stack</p>
-                              </div>
+                              <a href="#">
+                                <img src="./images/marissa-grootes-O8HHFS7InmA-unsplash (1).jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Pastel Puzzles</h5>
+                                  <p class="card-text">MERN Stack</p>
+                                </div>
+                              </a>
                             </div>
     
                           </div>
                           <div class="col-sm-6 col-md-6 col-lg-6">
 
                             <div class="card" style="width: 100%;" id="runBuddy">
-                              <img src="./images/mattyas-lamar-UbnM_RWN61Y-unsplash.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Run Buddy</h5>
-                                <p class="card-text">HTML/CSS</p>
-                              </div>
+                              <a href="#">
+                                <img src="./images/mattyas-lamar-UbnM_RWN61Y-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Run Buddy</h5>
+                                  <p class="card-text">HTML/CSS</p>
+                                </div>
+                            </a>
                             </div>
     
                           </div>
@@ -159,12 +171,14 @@
                     <div class="col-sm-3 col-md-3 col-lg-3">
                       <h2>About / Contact</h2>
                     </div>
-                    <div class="col-sm-9 col-md-9 col-lg-9">
+                    <div class="col-sm-9 col-md-9 col-lg-9"> 
                       <p>
                         I am a London based front end developer. I have a passion for designing functional, clean and esthetically pleasing websites and apps. 
                       </p>
-                      <p>Get in touch</p>
-
+                      <div class="contact-details">
+                        <p>Get in touch</p>
+                        <button type="button" class="btn btn-dark">Email </button>
+                      </div>
                     </div>
                   </div>
 

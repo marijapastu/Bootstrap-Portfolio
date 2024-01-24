@@ -1,0 +1,66 @@
+/* Navigation bar */
+
+.navbar {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-item a {
+    color: black;
+
+  }
+
+.nav-item a:hover {
+    color: red;
+
+  }
+
+/* Hero section */
+
+.heroBanner {
+    background-image: url(../images/milad-fakurian-1PLbmk2Xp2U-unsplash.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    margin-bottom: 20px;
+    padding: 20px;
+
+      
+}
+
+.heroText {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.heroText p {
+  padding-bottom: 10px;
+}
+
+/* work section */
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-body :hover {
+  color: red;
+}
+
+h2 {
+  text-align: end;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: start;
+}
+
+.contact-details p {
+  text-align: center;
+}
+
