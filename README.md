@@ -23,4 +23,4 @@ N/A
 
 ## Licence
 
-Please refer to the LOICENSE in the repository.
+Please refer to the LICENSE in the repository.
