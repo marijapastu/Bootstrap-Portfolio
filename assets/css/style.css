@@ -4,8 +4,8 @@
   padding-right: 20px;
   padding-left: 20px;
 }
-.nav-item a {
-    color: black;
+.nav-link { 
+color: black;
 
   }
 
@@ -51,6 +51,7 @@
   color: red;
 }
 
+
 h2 {
   text-align: end;
   margin: 0px 20px 20px 0px;
@@ -80,5 +81,5 @@ h2 {
 }
 
 .footerLinks a {
-  color: white;
+  color: white; 
 }
